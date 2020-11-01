@@ -1,7 +1,9 @@
 # 状態管理ライブラリ選定メモ 2020.11.01
 
 createContext と useReducer を併用する感じの使い方にしました。
+
 ContextOnly → ReducerOnly → ContextReducer の順でみていただけると理解はやいかもです。
+
 ３つとも同じ機能です。
 
 ## 参考記事
